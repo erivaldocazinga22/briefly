@@ -3,7 +3,7 @@
 ## Step 01 (MVP):
 [ ] Base inicial do projecto
     [X] Contruir projecto next inicial
-    [ ] Configurar BD
+    [X] Configurar BD
     [ ] Configurar multilinguage(i18n)
 [ ] Sistema de autenticação (Para admin)
     [ ] Tela de Login
