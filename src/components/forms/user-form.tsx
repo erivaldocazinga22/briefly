@@ -11,7 +11,7 @@ export function UserForm() {
 		defaultValues: {
 			name: "",
 			email: "",
-			password: ""
+			password: "",
 		},
 	});
 	const onSubmit = async (data: any) => {
