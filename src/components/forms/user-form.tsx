@@ -11,6 +11,7 @@ export function UserForm() {
 		defaultValues: {
 			name: "",
 			email: "",
+			password: ""
 		},
 	});
 	const onSubmit = async (data: any) => {
@@ -37,6 +38,19 @@ export function UserForm() {
 								type="email"
 								placeholder="Email"
 								autoComplete="email"
+								{...field}
+							/>
+						</FormControl>
+					)}
+				/>
+				<FormField
+					name="password"
+					control={form.control}
+					render={({ field }) => (
+						<FormControl>
+							<Input
+								type="password"
+								placeholder="Password"
 								{...field}
 							/>
 						</FormControl>
